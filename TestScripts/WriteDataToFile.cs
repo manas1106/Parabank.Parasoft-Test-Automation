@@ -13,7 +13,7 @@ namespace ParaBankWebsite.TestScripts
         public void WriteIntoFile()
         {
          
-            SeleniumSetMethods.WriteDataIntoFile(@"C:\Users\manas.bisen\Documents\C# Practice\ParaBankWebsite\Files\Software testing.txt", "What is Defect?");
+            SeleniumSetMethods.WriteDataIntoFile(@"Provide path of file located at", "Text to write in file");
             
         }
     }
