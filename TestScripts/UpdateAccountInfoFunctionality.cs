@@ -15,7 +15,7 @@ namespace ParaBankWebsite.TestScripts
         [TestInitialize] 
         public void NavigateToParabankWebsite()
         {
-            driver = new ChromeDriver(@"C:\Users\manas.bisen\Documents\C# Practice\ParaBankWebsite\Drivers");
+            driver = new ChromeDriver(@"Put the system path of respective drivers");
             driver.Manage().Window.Maximize();
             driver.Navigate().GoToUrl("https://parabank.parasoft.com/parabank/index.htm");
         }
