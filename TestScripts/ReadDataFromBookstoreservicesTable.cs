@@ -14,7 +14,7 @@ namespace ParaBankWebsite.TestScripts
         [TestMethod]
         public void BookServicesTble()
         {
-            IWebDriver driver = new ChromeDriver(@"C:\Users\manas.bisen\Documents\C# Practice\ParaBankWebsite\Drivers");
+            IWebDriver driver = new ChromeDriver(@"Put the system path of respective drivers");
             driver.Manage().Window.Maximize();
             driver.Navigate().GoToUrl("https://parabank.parasoft.com/parabank/index.htm");
             SeleniumSetMethods.Click(driver, "LinkText", "Services");
